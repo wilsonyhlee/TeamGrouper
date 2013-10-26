@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="jquery.mobile-1.3.2.min.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src="jquery-1.10.2.min.js"></script>
+		<script src="jquery.mobile-1.3.2.min.js"></script>
+		<script src="underscore-min.js"></script>
+	</head>
+	
+	<body>
+		<div data-role="page" id="home">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+			
+			<div data-role="content">
+				<form id="loginForm" method="post" data-ajax="false">
+					<input type="text" name="username" placeholder="Email"> <br />
+					<input type="password" name="password" placeholder="Password"> <br /> 
+					<div class="text-center">
+						<input type="submit" value="Login" class="btnClass" id="submit">
+					</div>
+				</form>
+				
+				<div class="message">
+					
+				</div>
+				
+				<div class="text-center">
+					<a href="#Registration" class="normal-link" id="Registration">Or Sign Up</a>
+				</div>
+			</div>
+		</div>
+		
+		<div data-role="page" id="Registration">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+		
+			<div data-role="content">
+				<div class="message"></div>
+				<form id="registrationForm" method="post" data-ajax="false">
+					<label><b>Email:</b></label>
+					<input type="text" name="email" > <br /> <br /> 
+					<label><b>Password:</b></label>
+					<input type="password" name="password"> <br /> <br />
+					<label><b>Confirm Password:</b></label>
+					<input type="password" name="password_confirmation"> <br /> <br />
+					<label></label><input type="submit" value="Register" class="btnClass" id="submit">
+				</form>
+			</div>
+		</div>
+
+		<div data-role="page" id="Teams">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+		
+			<div data-role="content">
+				<div class="text-center">
+
+				</div>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<a href="#Teams" class="active">Teams</a>
+				<a href="#">Events</a>
+				<a href="#">Locations</a>
+			</div>
+		</div>
+		
+		<div data-role="page" id="Events">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+			
+			<div class="large-text has-padding event-header">
+				<span class="text"></span>
+				<img src="img/ajax-loader.gif">
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<a href="#Teams" class="past">Teams</a>
+				<a href="#Events" class="active">Events</a>
+				<a href="#">Locations</a>
+			</div>
+		</div>
+		
+		<div data-role="page" id="Locations">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+			
+			<div class="large-text has-padding event-header">
+				<span class="text"></span>
+				<img src="img/ajax-loader.gif">
+			</div>
+		
+			<div data-role="content">
+				<ul data-role="listview">
+				</ul>
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<a href="#Teams" class="past">Teams</a>
+				<a href="#Events" class="past">Events</a>
+				<a href="#Locations" class="active">Locations</a>
+			</div>
+		</div>
+		
+		<div data-role="page" id="Watch">
+			<div data-role="header" class="header main-color has-padding">
+				<img src="img/logo.png" width="50%">
+			</div>
+			
+			<div class="large-text has-padding event-header">
+			</div>
+		
+			<div data-role="content">
+				<img id="googleMaps">
+				<div class="loader hide text-center"><img src="img/ajax-loader.gif"></div>
+				<div class="count"></div>
+				<div class="wrapper">
+					<a href="#" class="active join">Join</a>
+				</div>
+				
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<a href="#Teams" class="past">Teams</a>
+				<a href="#Events" class="past">Events</a>
+				<a href="#Locations" class="past">Locations</a>
+			</div>
+		</div>
+
+		<script src="moment.min.js"></script>
+		<script src="templates.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,58 @@
+.has-padding {
+	padding: 10px 10px 2px;	
+}
+
+.main-color {
+	background-color: $main-color;
+}
+
+.text-center {
+	text-align: center;	
+}
+
+.normal-link {
+	text-decoration: none;
+	color: #222;
+	&:hover {
+		text-decoration: underline;	
+	}
+}
+
+.large-text {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.event-text {
+	padding: 5px 40px 5px 5px;
+	font-size: 22px;
+	background: url("img/arrow_right.png") no-repeat right center $main-color;
+	
+	a {
+		color: #222;
+		text-decoration: none;
+		&:hover {
+			color: #222;	
+		}
+	}
+}
+
+.float-left {
+	float: left;	
+}
+
+.float-right {
+	float: right;	
+}
+
+.clear {
+	clear: both;	
+}
+
+.hide {
+	display: none;	
+}
+
+.disabled {
+	cursor: default !important;	
+}

@@ -1,0 +1,129 @@
+.style {
+  display: none; }
+
+.ui-bar-a {
+  background-image: none;
+  background: #f6f0e1;
+  border: none; }
+
+.ui-body-c .ui-link {
+  color: #222;
+  font-weight: normal; }
+  .ui-body-c .ui-link:hover {
+    color: #222;
+    font-weight: normal; }
+
+.ui-btn-up-c {
+  font-weight: normal;
+  line-height: 25px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #dfc993; }
+
+.ui-footer.ui-bar-a.ui-footer-fixed {
+  background: #f6f0e1;
+  text-align: center; }
+  .ui-footer.ui-bar-a.ui-footer-fixed * {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Helvetica; }
+  .ui-footer.ui-bar-a.ui-footer-fixed a {
+    background: #ddd;
+    display: inline-block;
+    text-shadow: none;
+    border-radius: 0;
+    width: 32.5%;
+    padding: 0;
+    border: none;
+    font-size: 20px !important; }
+  .ui-footer.ui-bar-a.ui-footer-fixed a.past {
+    background: #8d0911;
+    color: white; }
+  .ui-footer.ui-bar-a.ui-footer-fixed a.active {
+    background: #0f2062;
+    color: white; }
+
+.wrapper {
+  text-align: center; }
+  .wrapper a {
+    background: #ddd;
+    padding: 10px 0 !important;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: none;
+    border-radius: 0;
+    width: 32.5%;
+    padding: 0;
+    border: none;
+    font-size: 20px !important; }
+    .wrapper a:hover {
+      color: white !important; }
+  .wrapper a.past {
+    background: #8d0911;
+    color: white; }
+  .wrapper a.active {
+    background: #0f2062;
+    color: white; }
+
+.ui-li.ui-li-static.ui-btn-up-c {
+  padding: 10px 0; }
+
+.logo {
+  width: 40%;
+  padding: 4%; }
+
+.header {
+  border-bottom: 1px solid #f0e6ce; }
+
+.event-header img {
+  margin-top: -5px !important; }
+
+.count {
+  text-align: center;
+  font-size: 20px; }
+
+.has-padding {
+  padding: 10px 10px 2px; }
+
+.main-color {
+  background-color: #f6f0e1; }
+
+.text-center {
+  text-align: center; }
+
+.normal-link {
+  text-decoration: none;
+  color: #222; }
+  .normal-link:hover {
+    text-decoration: underline; }
+
+.large-text {
+  font-size: 25px;
+  padding: 10px; }
+
+.event-text {
+  padding: 5px 40px 5px 5px;
+  font-size: 22px;
+  background: url("img/arrow_right.png") no-repeat right center #f6f0e1; }
+  .event-text a {
+    color: #222;
+    text-decoration: none; }
+    .event-text a:hover {
+      color: #222; }
+
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.clear {
+  clear: both; }
+
+.hide {
+  display: none; }
+
+.disabled {
+  cursor: default !important; }
