@@ -1,0 +1,15 @@
+h3 {
+	margin-top: 40px;
+}
+label {
+	float: left;
+	width: 100px;
+	clear: both;
+}
+label, input[type="text"], select, input[type="password"] {
+	margin-bottom: 10px;
+}
+input[type="submit"] {
+	clear: both;
+	display: block;
+}
